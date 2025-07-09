@@ -1,0 +1,5 @@
+calamares-settings-guideos (1.0) unstable; urgency=medium
+
+  * Init commit for GuideOS theme and settings for the Calamares Installer
+
+ -- Actionschnitzel <actionschnitzel@guideos.de>  Thu, 10 Jul 2025 00:54:30 +0200

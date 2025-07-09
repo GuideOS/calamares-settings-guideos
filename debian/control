@@ -1,0 +1,31 @@
+Source: calamares-settings-guideos
+Section: utils
+Priority: optional
+Maintainer: Actionschnitzel <actionschnitzel@guideos.de>
+Build-Depends: debhelper-compat (= 13), libglib2.0-bin
+Standards-Version: 4.6.2
+Rules-Requires-Root: no
+Homepage: https://salsa.debian.org/live-team/calamares-settings-debian
+Vcs-Git: https://salsa.debian.org/live-team/calamares-settings-debian-packaging.git
+Vcs-Browser: https://salsa.debian.org/live-team/calamares-settings-debian-packaging
+
+Package: calamares-settings-guideos
+Architecture: all
+Depends: calamares,
+         rsync,
+         cryptsetup,
+         libglib2.0-bin,
+         keyutils,
+         pkexec,
+         qml-module-qtquick-window2,
+         qml-module-qtquick2,
+         ${misc:Depends}
+Provides: calamares-settings
+Description: GuideOS theme and settings for the Calamares Installer
+ Calamares is a generic installer framework for Linux distributions.
+ By default, it contains a set of boilerplate wording and images. This
+ package provides the latest GuideOS artwork as well as scripts that
+ supports EFI installations.
+ .
+ It also serves as an example for how derivatives can create their own
+ calamares-settings packages.
