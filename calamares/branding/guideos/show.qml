@@ -40,7 +40,7 @@ Presentation
     }
     Slide {
         Image {
-            id: background1
+            id: background2
             source: "FindUs.png"
             width: 467; height: 280
             fillMode: Image.PreserveAspectFit

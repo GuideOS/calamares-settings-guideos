@@ -9,29 +9,29 @@ windowPlacement: center
 strings:
     productName:         GuideOS
     shortProductName:    GuideOS
-    version:             
-    shortVersion:        Cinnamon
+    version:             0.9
+    shortVersion:        9
     versionedName:       GuideOS Cinnamon
     shortVersionedName:  
     bootloaderEntryName: GuideOS (Cinnamon)
     productUrl:          https://forum.linuxguides.de
-    supportUrl:           https://forum.linuxguides.de/index.php?board/47-pgos/discussions
-    knownIssuesUrl:       https://forum.linuxguides.de/index.php?board/47-pgos
+    supportUrl:          https://forum.linuxguides.de/index.php?board/47-pgos/discussions
+    knownIssuesUrl:      https://forum.linuxguides.de/index.php?board/47-pgos
     releaseNotesUrl:     https://forum.linuxguides.de/index.php?board/47-pgos/releases
     donateUrl:           https://forum.linuxguides.de
 
 images:
     productLogo:         "GuideOS-logo.png"
     productIcon:         "GuideOS-logo.png"
-    #productWelcome:      "welcome.png"
+    productWelcome:      "welcome.png"
     #productWallpaper:    "wallpaper.png"
 
 slideshow:               "show.qml"
 
 style:
-   sidebarBackground:    "#2c3133"
-   sidebarText:          "#FFFFFF"
-   sidebarTextSelect:    "#4d7079"
-   sidebarTextSelect:    "#292F34"
+   SidebarBackground:    "#26475b"
+   SidebarText:          "#FFFFFF"
+   SidebarTextCurrent:   "#fbfbfb"
+   SidebarBackgroundCurrent: "#265370"
 
 slideshowAPI: 2
