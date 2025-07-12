@@ -23,29 +23,75 @@ Presentation
 {
     id: presentation
 
+    function nextSlide() {
+        console.log("QML Component (default slideshow) Next slide");
+        presentation.goToNextSlide();
+    }
+
     Timer {
-        interval: 10000
+        id: advanceTimer
+        interval: 20000
+        running: true
         repeat: true
-        onTriggered: presentation.goToNextSlide()
+        onTriggered: nextSlide()
     }
 
     Slide {
         Image {
-            id: background1
-            source: "slide1.png"
-            width: 467; height: 280
+            id: background_1
+            source: "slide_1.png"
+            width: 1000; height: 650
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
     }
+
     Slide {
         Image {
-            id: background2
-            source: "FindUs.png"
-            width: 467; height: 280
+            id: background_2
+            source: "slide_2.png"
+            width: 1000; height: 650
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
-    }    
+    }
 
+    Slide {
+        Image {
+            id: background_3
+            source: "slide_3.png"
+            width: 1000; height: 650
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
+        }
+    }
+
+    Slide {
+        Image {
+            id: background_4
+            source: "slide_4.png"
+            width: 1000; height: 650
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
+        }
+    }
+
+    Slide {
+        Image {
+            id: background_5
+            source: "slide_5.png"
+            width: 1000; height: 650
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
+        }
+    }
+
+    function onActivate() {
+        console.log("QML Component (default slideshow) activated");
+        presentation.currentSlide = 0;
+    }
+    
+    function onLeave() {
+        console.log("QML Component (default slideshow) deactivated");
+    }
 }
