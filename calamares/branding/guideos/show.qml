@@ -24,7 +24,7 @@ Presentation
     id: presentation
 
     Timer {
-        interval: 10000
+        interval: 20000
         repeat: true
         onTriggered: presentation.goToNextSlide()
     }
@@ -38,14 +38,14 @@ Presentation
             anchors.centerIn: parent
         }
     }
+
     Slide {
         Image {
             id: background2
-            source: "FindUs.png"
+            source: "slide2.png"
             width: 467; height: 280
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
-    }    
-
+    }
 }
