@@ -24,7 +24,6 @@ images:
     productLogo:         "GuideOS-logo.png"
     productIcon:         "GuideOS-logo.png"
     productWelcome:      "welcome.png"
-    #productWallpaper:    "wallpaper.png"
 
 slideshow:               "show.qml"
 
