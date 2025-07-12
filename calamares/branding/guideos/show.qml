@@ -37,15 +37,15 @@ Presentation
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
-    }
-
-    Slide {
-        Image {
-            id: background2
-            source: "slide2.png"
-            width: 467; height: 280
-            fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
+        Text {
+            anchors.horizontalCenter: background1.horizontalCenter
+            anchors.top: background1.bottom
+            text: "Welcome to GuideOS.<br/>"+
+                  "The rest of the installation is automated and should complete in a few minutes."
+            wrapMode: Text.WordWrap
+            width: 600
+            horizontalAlignment: Text.Center
         }
     }
+
 }
