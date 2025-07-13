@@ -3,16 +3,16 @@ componentName:   guideos
 welcomeStyleCalamares: true
 welcomeExpandingLogo: true
 windowExpanding: normal
-windowSize: 800px,520px
+windowSize: 800px,580px
 windowPlacement: center
 
 strings:
     productName:         GuideOS
     shortProductName:    GuideOS
-    version:             0.9.250711
+    version:             0.9
     shortVersion:        0.9
-    versionedName:       GuideOS
-    shortVersionedName:  
+    versionedName:       GuideOS 0.9
+    shortVersionedName:  GuideOS 0.9
     bootloaderEntryName: GuideOS
     productUrl:          https://forum.linuxguides.de
     supportUrl:          https://forum.linuxguides.de/index.php?board/47-pgos/discussions
@@ -20,9 +20,12 @@ strings:
     releaseNotesUrl:     https://forum.linuxguides.de/index.php?board/47-pgos/releases
     donateUrl:           https://forum.linuxguides.de
 
+sidebar: widget
+navigation: widget
+
 images:
-    productLogo:         "GuideOS-logo.png"
-    productIcon:         "GuideOS-logo.png"
+    productLogo:         "guideos-logo.png"
+    productIcon:         "guideos-logo.png"
     productWelcome:      "welcome.png"
 
 slideshow:               "show.qml"

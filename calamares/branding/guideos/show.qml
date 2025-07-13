@@ -1,7 +1,7 @@
 /* === This file is part of Calamares - <http://github.com/calamares> ===
  *
  *   Copyright 2015, Teo Mrnjavac <teo@kde.org>
- *   Copyright 2018-2019, Jonathan Carter <jcc@debian.org>
+ *   Copyright 2018-2019, Jonathan Carter <jcc@guideos.org>
  *
  *   Calamares is free software: you can redistribute it and/or modify
  *   it under the terms of the GNU General Public License as published by
@@ -40,8 +40,8 @@ Presentation
         Text {
             anchors.horizontalCenter: background1.horizontalCenter
             anchors.top: background1.bottom
-            text: "Welcome to GuideOS.<br/>"+
-                  "The rest of the installation is automated and should complete in a few minutes."
+            text: qsTr("Welcome to GuideOS GNU/Linux.<br/>"+
+                  "The rest of the installation is automated and should complete in a few minutes.")
             wrapMode: Text.WordWrap
             width: 600
             horizontalAlignment: Text.Center

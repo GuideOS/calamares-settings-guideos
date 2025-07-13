@@ -1,6 +1,0 @@
----
-type: script
-name: "nvidia-driver-install"
-interface: "python"
-requires: []
-module-type: postinstall
