@@ -1,6 +1,7 @@
 calamares etc
 calamares-modules/* usr/lib/calamares/modules
 helpers/* usr/share/calamares/helpers
+
 *.desktop usr/share/applications
 calamares-install-guideos usr/bin
 artwork/install-guideos.png usr/share/pixmaps
