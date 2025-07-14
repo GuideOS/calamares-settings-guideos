@@ -1,0 +1,5 @@
+# Only meant to be run by calamares, so its scripts wouldn't have manpages
+calamares-settings-guideos: binary-without-manpage
+
+# We don't provide this file on purpose
+calamares-settings-guideos: diversion-for-unknown-file

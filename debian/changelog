@@ -1,5 +1,341 @@
-calamares-settings-guideos (1.7) unstable; urgency=medium
+calamares-settings-guideos (13.0.12-3) unstable; urgency=medium
 
-  * Init commit for GuideOS theme and settings for the Calamares Installer
+  * Add GuideOS Stuff 
 
- -- Actionschnitzel <actionschnitzel@guideos.de>  Thu, 10 Jul 2025 00:54:30 +0200
+ -- Actionschnitzel <actionschnitzel@guideos.de>  Mon, 06 Jan 2025 12:03:48 +0200
+
+calamares-settings-debian (13.0.12-1) unstable; urgency=medium
+
+  * New upstream release
+    - Includes initial Caretopsia artwork for Trixie
+    - Support more than one value for the media path
+      (Closes: #1089618)
+
+ -- Jonathan Carter <jcc@debian.org>  Fri, 20 Dec 2024 15:01:36 +0200
+
+calamares-settings-debian (13.0.11-1) unstable; urgency=medium
+
+  * New upstream release
+    - Make script names less generic and namespace (Closes: #1021156)
+
+ -- Jonathan Carter <jcc@debian.org>  Fri, 23 Aug 2024 17:48:32 +0200
+
+calamares-settings-debian (13.0.9-1) unstable; urgency=medium
+
+  * New upstream release (Closes: #1037123, #1001192)
+
+ -- Jonathan Carter <jcc@debian.org>  Thu, 22 Aug 2024 18:54:20 +0200
+
+calamares-settings-debian (13.0.8-1) unstable; urgency=medium
+
+  * New upstream release
+    - Further attempt to fix encrypted installs
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 22 Jul 2024 15:39:42 +0900
+
+calamares-settings-debian (13.0.7-1) unstable; urgency=medium
+
+  * New upstream release
+    - Fix encrypted installs
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 22 Jul 2024 14:13:23 +0900
+
+calamares-settings-debian (13.0.6-1) unstable; urgency=medium
+
+  * New upstream release
+    - Mount efivarfs when needed (Closes: #1051607)
+
+ -- Jonathan Carter <jcc@debian.org>  Fri, 21 Jun 2024 18:13:26 +0200
+
+calamares-settings-debian (13.0.5-2) unstable; urgency=medium
+
+  * Update debian/watch to work with new GitLab release
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 19 Jun 2024 11:01:19 +0200
+
+calamares-settings-debian (13.0.5-1) unstable; urgency=medium
+
+  * New upstream release
+    - Fix delimiter in desktop icon script (Closes: #1037299)
+
+ -- Jonathan Carter <jcc@debian.org>  Sun, 11 Feb 2024 14:48:39 +0200
+
+calamares-settings-debian (13.0.4-1) unstable; urgency=medium
+
+  * New upstream release
+    - Fix crash where /dev isn't mounted
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 28 Aug 2023 19:17:29 +0200
+
+calamares-settings-debian (13.0.3-1) unstable; urgency=medium
+
+  * New upstream release
+    - Do not allow empty password (Closes: #1050291)
+
+ -- Jonathan Carter <jcc@debian.org>  Fri, 25 Aug 2023 21:51:02 +0200
+
+calamares-settings-debian (13.0.2-1) unstable; urgency=medium
+
+  * New upstream release
+    - Fix desktop script path
+
+ -- Jonathan Carter <jcc@debian.org>  Thu, 24 Aug 2023 17:32:33 +0200
+
+calamares-settings-debian (13.0.1-1) unstable; urgency=medium
+
+  * New upstream release
+    - Initial trixie support
+  * Add dependency: libglib2.0-bin
+    - Plus upstream fixes for desktop launcher (Closes: #1037299)
+  * Update standards version to 4.6.2
+  * Update copyright years
+
+ -- Jonathan Carter <jcc@debian.org>  Thu, 24 Aug 2023 16:49:49 +0200
+
+calamares-settings-debian (12.0.9-1) unstable; urgency=medium
+
+  * New upstream release
+    - Deal with changes in how luks tools are installed from live media
+
+ -- Jonathan Carter <jcc@debian.org>  Thu, 04 May 2023 20:47:17 +0200
+
+calamares-settings-debian (12.0.8-1) unstable; urgency=medium
+
+  * New upstream release
+    - Make grub changes in the correct place (within the chroot)
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 26 Apr 2023 14:25:34 +0200
+
+calamares-settings-debian (12.0.7-1) unstable; urgency=medium
+
+  * New upstream release
+    - Re-enable os-prober
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 26 Apr 2023 13:43:01 +0200
+
+calamares-settings-debian (12.0.5-2) unstable; urgency=medium
+
+  * Depend on pkexec (Closes: #1033930) 
+
+ -- Jonathan Carter <jcc@debian.org>  Tue, 04 Apr 2023 09:51:03 +0200
+
+calamares-settings-debian (12.0.5-1) unstable; urgency=medium
+
+  * New upstream release
+    - Update sources.list to include backports and non-free-firmware
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 06 Mar 2023 19:24:55 +0200
+
+calamares-settings-debian (12.0.4-1) unstable; urgency=medium
+
+  * New upstream release
+    - Bookworm artwork
+    - Make installer slide translatable
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 06 Mar 2023 12:33:33 +0200
+
+calamares-settings-debian (12.0.3-1) unstable; urgency=medium
+
+  * New upstream release
+    (work arounds hidpi issue, Closes: #992162)
+
+ -- Jonathan Carter <jcc@debian.org>  Tue, 02 Aug 2022 09:35:26 +0200
+
+calamares-settings-debian (12.0.2-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Carter <jcc@debian.org>  Thu, 19 May 2022 14:51:29 +0200
+
+calamares-settings-debian (12.0.1-1) unstable; urgency=medium
+
+  [ debian Janitor ]
+  * Set upstream metadata fields: Repository, Repository-Browse.
+  * Update standards version to 4.6.0, no changes needed.
+
+  [ Jonathan Carter ]
+  * New release
+    - Use force-unsafe-io to speed up dpkg actions (Closes: #984794)
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 09 May 2022 13:37:12 +0200
+
+calamares-settings-debian (11.0.5-2) unstable; urgency=medium
+
+  * Add supplimental information to previous changelog entry
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 26 Jul 2021 10:27:12 +0200
+
+calamares-settings-debian (11.0.5-1) unstable; urgency=medium
+
+  * New upstream release
+    - Corrects the apt sources for security updates (Closes: #991474)
+
+ -- Jonathan Carter <jcc@debian.org>  Sun, 25 Jul 2021 14:10:24 +0200
+
+calamares-settings-debian (11.0.4-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 11 Nov 2020 14:54:50 +0200
+
+calamares-settings-debian (11.0.3-1) unstable; urgency=medium
+
+  * New upstream release
+    (Closes: #969930, #941301)
+
+ -- Jonathan Carter <jcc@debian.org>  Sun, 18 Oct 2020 19:48:10 +0200
+
+calamares-settings-debian (11.0.2-1) unstable; urgency=medium
+
+  * New upstream release
+    (Closes: #934503, #934504, #959541)
+  * Update standards version to 4.5.0
+  * Upgrade to debhelper-compat 13
+  * Declare Rules-Requires-Root: no
+  * Update copyright years
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 15 Jul 2020 18:39:57 +0200
+
+calamares-settings-debian (11.0.1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 25 Sep 2019 10:36:54 +0000
+
+calamares-settings-debian (10.0.25-2) unstable; urgency=medium
+
+  * Initial source-only upload
+  * Update standards version to 4.4.0
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 05 Aug 2019 21:30:20 +0200
+
+calamares-settings-debian (10.0.25-1) unstable; urgency=medium
+
+  * New upstream release
+    - Refine fix for initramfs permissions, only apply
+      when encryption is enabled
+
+ -- Jonathan Carter <jcc@debian.org>  Fri, 05 Jul 2019 17:37:33 +0200
+
+calamares-settings-debian (10.0.24-1) unstable; urgency=medium
+
+  * New upstream release
+    - Fix path in previous CVE bug fix
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 03 Jul 2019 13:29:07 +0000
+
+calamares-settings-debian (10.0.23-1) unstable; urgency=medium
+
+  * New upstream release
+    -  Fixes permissions for initramfs image (CVE-2019-13179)
+       (Closes: #931373)
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 03 Jul 2019 13:05:47 +0000
+
+calamares-settings-debian (10.0.20-1) unstable; urgency=medium
+
+  * New upstream release
+    - Configure Desktop icon for calamares
+
+ -- Jonathan Carter <jcc@debian.org>  Thu, 18 Apr 2019 08:18:37 +0000
+
+calamares-settings-debian (10.0.19-1) unstable; urgency=medium
+
+  * New upstream release
+    - Don't install unnecessary efi file (Closes: #927102)
+    - Fix distribution description
+    - Fix release notes URL
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 15 Apr 2019 13:32:36 +0000
+
+calamares-settings-debian (10.0.18-1) unstable; urgency=medium
+
+  * New upstream releas
+    - fix efi install path to EFI/debian
+  * Update to debhelper-compat (=12)
+
+ -- Jonathan Carter <jcc@debian.org>  Fri, 15 Feb 2019 16:06:39 +0200
+
+calamares-settings-debian (10.0.17-1) unstable; urgency=medium
+
+  * New upstream release
+    - explicitly remove calamares-settings-debian from calamares packages
+      module
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 16 Jan 2019 19:14:36 +0200
+
+calamares-settings-debian (10.0.16-1) unstable; urgency=medium
+
+  * New upstream release
+  * Fix package description (Closes: #918222)
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 16 Jan 2019 12:15:28 +0200
+
+calamares-settings-debian (10.0.15-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update standards version to 4.3.0
+
+ -- Jonathan Carter <jcc@debian.org>  Tue, 08 Jan 2019 10:48:47 +0200
+
+calamares-settings-debian (10.0.14-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 10 Dec 2018 15:32:26 +0200
+
+calamares-settings-debian (10.0.13-1) unstable; urgency=medium
+
+  * New upstream release
+  * Add libglib2.0-bin to build-depends
+
+ -- Jonathan Carter <jcc@debian.org>  Sat, 01 Dec 2018 11:40:55 +0200
+
+calamares-settings-debian (10.0.10-2) unstable; urgency=medium
+
+  * Fix diverts (Closes: #909492)
+
+ -- Jonathan Carter <jcc@debian.org>  Tue, 25 Sep 2018 14:32:01 +0200
+
+calamares-settings-debian (10.0.10-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 19 Sep 2018 10:58:27 +0200
+
+calamares-settings-debian (10.0.9-1) unstable; urgency=medium
+
+  * New usptream release
+  * Add divert to hide original Calamares icon
+  * Update standards version to 4.2.1
+
+ -- Jonathan Carter <jcc@debian.org>  Tue, 18 Sep 2018 20:17:54 +0200
+
+calamares-settings-debian (10.0.8-2) unstable; urgency=medium
+
+  * Fix watch file
+  * Update standards version to 4.2.0
+
+ -- Jonathan Carter <jcc@debian.org>  Thu, 09 Aug 2018 09:29:48 +0200
+
+calamares-settings-debian (10.0.8-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update watch file
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 25 Jun 2018 12:29:07 +0200
+
+calamares-settings-debian (10.0.3-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update watch file to new upstream location on salsa
+  * Fix indentation in copyright file
+  * Update VCS to salsa.debian.org
+
+ -- Jonathan Carter <jcc@debian.org>  Sat, 19 May 2018 12:14:25 +0200
+
+calamares-settings-debian (10.0.2-1) unstable; urgency=medium
+
+  * Initial release (Closes: #847766)
+
+ -- Jonathan Carter <jcc@debian.org>  Sat, 28 Apr 2018 18:06:34 +0200

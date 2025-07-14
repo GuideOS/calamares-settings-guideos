@@ -1,0 +1,18 @@
+Package: calamares-settings-guideos
+Version: 13.0.12-3
+Architecture: all
+Maintainer: Jonathan Carter <jcc@guideos.org>
+Installed-Size: 352
+Depends: calamares, rsync, cryptsetup, libglib2.0-bin, keyutils, pkexec, qml-module-qtquick-window2, qml-module-qtquick2, dconf-gsettings-backend | gsettings-backend
+Provides: calamares-settings
+Section: utils
+Priority: optional
+Homepage: https://salsa.guideos.org/live-team/calamares-settings-guideos
+Description: GuideOS theme and settings for the Calamares Installer
+ Calamares is a generic installer framework for Linux distributions.
+ By default, it contains a set of boilerplate wording and images. This
+ package provides the latest GuideOS artwork as well as scripts that
+ supports EFI installations.
+ .
+ It also serves as an example for how derivatives can create their own
+ calamares-settings packages.
