@@ -1,7 +1,7 @@
 /* === This file is part of Calamares - <http://github.com/calamares> ===
  *
  *   Copyright 2015, Teo Mrnjavac <teo@kde.org>
- *   Copyright 2018-2019, Jonathan Carter <jcc@guideos.org>
+ *   Copyright 2018-2019, Jonathan Carter <jcc@debian.org>
  *
  *   Calamares is free software: you can redistribute it and/or modify
  *   it under the terms of the GNU General Public License as published by
@@ -31,20 +31,42 @@ Presentation
 
     Slide {
         Image {
-            id: background1
             source: "slide1.png"
-            width: 467; height: 280
+            width: 1033; height: 582
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
-        Text {
-            anchors.horizontalCenter: background1.horizontalCenter
-            anchors.top: background1.bottom
-            text: qsTr("Welcome to GuideOS GNU/Linux.<br/>"+
-                  "The rest of the installation is automated and should complete in a few minutes.")
-            wrapMode: Text.WordWrap
-            width: 600
-            horizontalAlignment: Text.Center
+    }
+    Slide {
+        Image {
+            source: "slide2.png"
+            width: 1033; height: 582
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
+        }
+    }
+    Slide {
+        Image {
+            source: "slide3.png"
+            width: 1033; height: 582
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
+        }
+    }
+    Slide {
+        Image {
+            source: "slide4.png"
+            width: 1033; height: 582
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
+        }
+    }
+    Slide {
+        Image {
+            source: "slide5.png"
+            width: 1033; height: 582
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
         }
     }
 

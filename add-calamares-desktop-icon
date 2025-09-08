@@ -1,5 +1,5 @@
 #!/bin/sh
-# Creates an "Install GuideOS" icon on the live session tested with:
+# Creates an "Install Guideos" icon on the live session tested with:
 # Xfce, LXDE, LXqt, Gnome, KDE, Mate, Cinnamon
 
 # We query xdg-user-dir because the Desktop directory has different
@@ -10,12 +10,12 @@ DESKTOP=$(xdg-user-dir DESKTOP)
 # creation script.
 mkdir -p $DESKTOP
 
-# Among the GuideOS desktop environments, LXDE is the only one
+# Among the Guideos desktop environments, LXDE is the only one
 # that behaves completely different.
 if [ -f /usr/bin/lxsession ]; then
     echo "[Desktop Entry]" > $DESKTOP/calamares-install-guideos.desktop
     echo "Type=Link" >> $DESKTOP/calamares-install-guideos.desktop
-    echo "Name=Install GuideOS" >> $DESKTOP/calamares-install-guideos.desktop
+    echo "Name=Install Guideos" >> $DESKTOP/calamares-install-guideos.desktop
     echo "Icon=install-guideos" >> $DESKTOP/calamares-install-guideos.desktop
     echo "URL=/usr/share/applications/calamares-install-guideos.desktop" \
           >> $DESKTOP/calamares-install-guideos.desktop

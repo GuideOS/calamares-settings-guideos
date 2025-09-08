@@ -23,5 +23,3 @@ deb-src http://deb.debian.org/debian $RELEASE-backports main contrib non-free no
 EOF
 
 exit 0
-
-

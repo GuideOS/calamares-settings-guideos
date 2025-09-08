@@ -1,7 +1,7 @@
 [ 13.0.12 ]
 
  * Initial Ceratopsian artwork changes
- * Support for alternate media paths (GuideOS bug: #1089618)
+ * Support for alternate media paths (Debian bug: #1089618)
 
 [ 13.0.11 ]
 
@@ -11,16 +11,16 @@
 [ 13.0.10 ]
 
  * Make script names less generic and namespace under /usr/share/calamares
-   https://bugs.guideos.org/cgi-bin/bugreport.cgi?bug=1021156
+   https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1021156
 
 [ 13.0.9 ]
 
  * Bump minimum storage required to 15G
-   https://bugs.guideos.org/cgi-bin/bugreport.cgi?bug=#1037123
+   https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=#1037123
  * Update copyright years 
  * Fix dconf entry for calamares launcher (fixes launcher on GNOME)
  * Use trim by default for encrypted media
-   https://bugs.guideos.org/cgi-bin/bugreport.cgi?bug=1001192
+   https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1001192
  * Use idle cycles to preload calamares binary and libraries
    for faster startup
 
@@ -98,7 +98,7 @@
 
 [ 12.0.4 ]
 
- * Update artwork for GuideOS 12 (emerald theme)
+ * Update artwork for Debian 12 (emerald theme)
  * Make installer slide translatable
 
 [ 12.0.3 ]
@@ -114,22 +114,22 @@
 
  * Initial branding description and sources.list changes for bookworm
  * Add dpkg-unsafe-io module to speed up post-installation
-   (GuideOS bug: #984794)
+   (Debian bug: #984794)
 
 [ 11.0.3 ]
 
  * Update settings.conf with changes from recent releases
  * Update sources.list to include updates security path
-   (GuideOS bug: #969930)
+   (Debian bug: #969930)
  * Store host entropy in urandom and systemd location
-   (GuideOS bug: #941301)
+   (Debian bug: #941301)
 
 [ 11.0.2 ]
 
  * Use xdg-user-dir to specify Desktop path
-   (GuideOS bug: #959541)
+   (Debian bug: #959541)
  * Enable displaymanager module (enables auto-login)
-   (GuideOS bug: #934503)
+   (Debian bug: #934503)
  * Add initial framebuffer session (use 'calamares' in kernel command
    line to boot straight to calamares)
 
@@ -137,7 +137,7 @@
 
 [ 11.0.1 ]
 
- * Add initial GuideOS testing branding
+ * Add initial Debian testing branding
  * Upgrade instances of 'buster' strings to 'bullseye', '10' to '11'.
 
 -- Jonathan Carter 2019-09-25
