@@ -1,3 +1,10 @@
+calamares-settings-guideos (13.0.14.3) unstable; urgency=medium
+
+  * Fixed slides
+  * Added DE tranlsation in .desktop
+
+ -- Actionschnitzel <actionschnitzel@guideos.de>  Tue, 09 Sep 2025 12:00:00 +0200
+
 calamares-settings-guideos (13.0.14.2) unstable; urgency=medium
 
   * Add GuideOS Stuff 

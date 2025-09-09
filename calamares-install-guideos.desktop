@@ -2,9 +2,11 @@
 Type=Application
 Version=1.0
 Name=Install Guideos
+Name[de]=Guideos installieren
 GenericName=Calamares Installer
 Exec=calamares-install-guideos
 Comment=Calamares — Installer for Guideos Live
+Comment[de]=Calamares — Installer für Guideos Live
 Keywords=calamares;system;install;guideos;installer
 Icon=install-guideos
 Terminal=false
