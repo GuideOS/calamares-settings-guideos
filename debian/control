@@ -18,6 +18,7 @@ Depends: calamares,
          keyutils,
          pkexec,
          qml-module-qtquick-window2,
+         qml6-module-qtquick-window,
          qml-module-qtquick2,
          ${misc:Depends}
 Provides: calamares-settings
