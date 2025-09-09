@@ -16,58 +16,68 @@
  *   along with Calamares. If not, see <http://www.gnu.org/licenses/>.
  */
 
+
 import QtQuick 2.0;
 import calamares.slideshow 1.0;
 
-Presentation
-{
+Presentation {
     id: presentation
 
     Timer {
-        interval: 20000
+        interval: 10000
+        running: true
         repeat: true
         onTriggered: presentation.goToNextSlide()
     }
 
     Slide {
         Image {
+            anchors.centerIn: parent
+            width: 1033
+            height: 582
+            fillMode: Image.PreserveAspectFit
+            smooth: true
             source: "slide1.png"
-            width: 1033; height: 582
-            fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
         }
     }
     Slide {
         Image {
+            anchors.centerIn: parent
+            width: 1033
+            height: 582
+            fillMode: Image.PreserveAspectFit
+            smooth: true
             source: "slide2.png"
-            width: 1033; height: 582
-            fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
         }
     }
     Slide {
         Image {
+            anchors.centerIn: parent
+            width: 1033
+            height: 582
+            fillMode: Image.PreserveAspectFit
+            smooth: true
             source: "slide3.png"
-            width: 1033; height: 582
-            fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
         }
     }
     Slide {
         Image {
+            anchors.centerIn: parent
+            width: 1033
+            height: 582
+            fillMode: Image.PreserveAspectFit
+            smooth: true
             source: "slide4.png"
-            width: 1033; height: 582
-            fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
         }
     }
     Slide {
         Image {
-            source: "slide5.png"
-            width: 1033; height: 582
-            fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
+            width: 1033
+            height: 582
+            fillMode: Image.PreserveAspectFit
+            smooth: true
+            source: "slide5.png"
         }
     }
-
 }
