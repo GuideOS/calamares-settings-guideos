@@ -1,3 +1,9 @@
+calamares-settings-guideos (13.0.14.5) unstable; urgency=medium
+
+  * Removed Backports
+
+ -- Actionschnitzel <actionschnitzel@guideos.de>  Wed, 17 Sep 2025 18:59:55 +0200
+
 calamares-settings-guideos (13.0.14.4) unstable; urgency=medium
 
   * Fixed slides
