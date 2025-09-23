@@ -1,8 +1,8 @@
 [Desktop Entry]
 Type=Application
 Version=1.0
-Name=Install Guideos
-Name[de]=Guideos installieren
+Name=Install GuideOS
+Name[de]=GuideOS installieren
 GenericName=Calamares Installer
 Exec=calamares-install-guideos
 Comment=Calamares — Installer for Guideos Live
