@@ -1,6 +1,8 @@
-calamares-settings-guideos (13.0.14.6) unstable; urgency=medium
+calamares-settings-guideos (13.0.14.9) unstable; urgency=medium
 
   * Removed Backports
+  * Fixed: Links
+  * Enhanced: BTRFS support
 
  -- Actionschnitzel <actionschnitzel@guideos.de>  Wed, 17 Sep 2025 18:59:55 +0200
 

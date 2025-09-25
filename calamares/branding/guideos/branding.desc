@@ -14,11 +14,11 @@ strings:
     versionedName:       GuideOS 0.9
     shortVersionedName:  GuideOS 0.9
     bootloaderEntryName: GuideOS
-    productUrl:          https://forum.linuxguides.de
-    supportUrl:          https://forum.linuxguides.de/index.php?board/47-pgos/discussions
-    knownIssuesUrl:      https://forum.linuxguides.de/index.php?board/47-pgos
-    releaseNotesUrl:     https://forum.linuxguides.de/index.php?board/47-pgos/releases
-    donateUrl:           https://forum.linuxguides.de
+    productUrl:          https://guideos.de
+    #supportUrl:          https://forum.linuxguides.de/index.php?board/47-pgos/discussions
+    #knownIssuesUrl:      https://forum.linuxguides.de/index.php?board/47-pgos
+    #releaseNotesUrl:     https://forum.linuxguides.de/index.php?board/47-pgos/releases
+    #donateUrl:           https://forum.linuxguides.de
 
 sidebar: widget
 navigation: widget
