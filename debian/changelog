@@ -1,8 +1,9 @@
-calamares-settings-guideos (13.0.14.18) unstable; urgency=medium
+calamares-settings-guideos (13.0.14.19) unstable; urgency=medium
 
   * Removed Backports
   * Fixed Links
   * Fixed Typo in Slide
+  * Change to GuideOS 1.0
 
  -- Actionschnitzel <actionschnitzel@guideos.de>  Wed, 17 Sep 2025 18:59:55 +0200
 
