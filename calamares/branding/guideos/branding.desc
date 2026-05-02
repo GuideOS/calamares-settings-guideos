@@ -9,10 +9,10 @@ windowPlacement: center
 strings:
     productName:         GuideOS
     shortProductName:    GuideOS
-    version:             1.0
-    shortVersion:        1.0
-    versionedName:       GuideOS 1.0
-    shortVersionedName:  GuideOS 1.0
+    version:             1.1
+    shortVersion:        1.1
+    versionedName:       GuideOS 1.1
+    shortVersionedName:  GuideOS 1.1
     bootloaderEntryName: GuideOS
     productUrl:          https://guideos.de
     #supportUrl:          https://forum.linuxguides.de/index.php?board/47-pgos/discussions
